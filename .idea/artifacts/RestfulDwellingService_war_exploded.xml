@@ -1,0 +1,42 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="RestfulDwellingService:war exploded">
+    <output-path>$PROJECT_DIR$/target/jersey-server</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="RestfulDwellingService" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.sun.jersey:jersey-server:1.8" />
+          <element id="library" level="project" name="Maven: asm:asm:3.1" />
+          <element id="library" level="project" name="Maven: com.sun.jersey:jersey-core:1.8" />
+          <element id="library" level="project" name="Maven: org.jvnet.jax-ws-commons:jaxws-json:1.2" />
+          <element id="library" level="project" name="Maven: com.sun.xml.ws:jaxws-rt:2.1.2-alpha-20070426" />
+          <element id="library" level="project" name="Maven: javax.xml.ws:jaxws-api:2.1" />
+          <element id="library" level="project" name="Maven: com.sun.xml.messaging.saaj:saaj-impl:1.3" />
+          <element id="library" level="project" name="Maven: javax.xml.soap:saaj-api:1.3" />
+          <element id="library" level="project" name="Maven: com.sun.xml.stream:sjsxp:1.0" />
+          <element id="library" level="project" name="Maven: javax.xml.stream:stax-api:1.0" />
+          <element id="library" level="project" name="Maven: org.jvnet.staxex:stax-ex:1.0" />
+          <element id="library" level="project" name="Maven: com.sun.xml.bind:jaxb-impl:2.1.3" />
+          <element id="library" level="project" name="Maven: javax.xml.bind:jaxb-api:2.1" />
+          <element id="library" level="project" name="Maven: javax.activation:activation:1.1" />
+          <element id="library" level="project" name="Maven: com.sun.xml.stream.buffer:streambuffer:0.6" />
+          <element id="library" level="project" name="Maven: com.sun.xsom:xsom:20070323" />
+          <element id="library" level="project" name="Maven: org.codehaus.jettison:jettison:1.0-beta-1" />
+          <element id="library" level="project" name="Maven: junit:junit:3.8.1" />
+          <element id="library" level="project" name="Maven: stax:stax-api:1.0.1" />
+          <element id="library" level="project" name="Maven: org.apache.velocity:velocity:1.5" />
+          <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.1" />
+          <element id="library" level="project" name="Maven: commons-lang:commons-lang:2.1" />
+          <element id="library" level="project" name="Maven: oro:oro:2.0.8" />
+          <element id="library" level="project" name="Maven: com.sun.xml:relaxngDatatype:1.0" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/jersey-server/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="RestfulDwellingService/web/Web" />
+    </root>
+  </artifact>
+</component>
